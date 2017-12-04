@@ -43,7 +43,7 @@ public class MinTest
    @Test (expected = NullPointerException.class)
    public void testForSoloNullElement()
    {
-      list.add (null);
+      list.add (1);
       Min.min (list);
    }
 
