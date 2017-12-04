@@ -40,10 +40,10 @@ public class MinTest
       Min.min (list);
    }
 
-   @Test (expected = NullPointerException.class)
+   @Test (expected = ClassCastException.class)
    public void testForSoloNullElement()
    {
-      list.add (25);
+      list.add (null);
       Min.min (list);
    }
 
